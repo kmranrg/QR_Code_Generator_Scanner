@@ -1,4 +1,4 @@
-# QR_Code_Generator_Scanner
+# QRi.Py
 App for generating and scanning QR Codes
 
 ### Product Screenshot
