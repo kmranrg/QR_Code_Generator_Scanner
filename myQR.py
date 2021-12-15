@@ -15,6 +15,10 @@ window.title("QR Code Generator & Scanner")
 window.geometry("1152x700")
 window.configure(bg = "#FFFFFF")
 
+# setting the app logo
+icon = PhotoImage(file='appLogo.png')
+window.iconphoto(False, icon)
+
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
@@ -70,7 +74,7 @@ canvas.create_text(
     715.0,
     65.0,
     anchor="nw",
-    text="QR CODE",
+    text="QRi.Py",
     fill="#591E22",
     font=("Roboto Bold", 50 * -1)
 )
