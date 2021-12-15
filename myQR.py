@@ -25,6 +25,7 @@ def generateMyQR(content):
     img.save("qrCode.jpg")
 
 def scanMyQR(img):
+    canvas.delete("scanned_text")
     img = str(img)
     detector = cv2.QRCodeDetector()
     value, _, _ = detector.detectAndDecode(cv2.imread(img))
@@ -32,9 +33,10 @@ def scanMyQR(img):
         600.0,
         410.0,
         anchor="nw",
-        text=str("=> "+value),
+        text=str(value),
         fill="#000000",
-        font=("Roboto Bold", 12 * -1)
+        font=("Roboto Bold", 13 * -1),
+        tag="scanned_text"
     )
 
 canvas = Canvas(
