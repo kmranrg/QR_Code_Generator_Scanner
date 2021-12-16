@@ -1,0 +1,60 @@
+Product Design Requirements:
+
+1) Product Dimensions: 1152 x 700 (W x H)
+
+2) Group - Scan Button:
+      Full Rectangle:
+        X: 738 Y: 469
+        W: 161 H: 49
+      Curved Rectangle: Corner Radius: 35
+      Text: Roboto | Bold | 15
+      
+3) Group - Generate Button:
+      Full Rectangle:
+        X: 738 Y: 286
+        W: 161 H: 49
+      Curved Rectangle: Corner Radius: 35
+      Text: Roboto | Bold | 15
+
+4) Text - Scanned Content:
+      Position:
+        X: 598 Y: 374
+      Font: Roboto | Bold | 15
+
+5) Text - Content to Encrypt:
+      Position:
+        X: 598 Y: 191
+      Font: Roboto | Bold | 15
+      
+6) Rectangle - TextArea:
+      Position:
+        X: 573 Y: 365
+        W: 491 H: 82
+      Corner Radius: 30
+
+6) Rectangle - TextBox:
+      Position:
+        X: 573 Y: 182
+        W: 491 H: 82
+      Corner Radius: 30
+      
+7) Text - Made by Kumar Anurag:
+      Position:
+        X: 740 Y: 617
+      Font: Roboto | Bold | 15
+
+8) Text - QR Code Heading:
+      Position:
+        X: 715 Y: 65
+      Font: Roboto | Bold | 50
+      
+9) Image:
+      Position:
+        X: 0 Y: 0
+        W: 487 H: 700
+        
+10) Rectangle:
+      Position:
+        X: 0 Y: 0
+        W: 487 H: 700
+      Fill: #C4C4C4
