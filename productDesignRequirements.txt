@@ -32,28 +32,28 @@ Product Design Requirements:
         W: 491 H: 82
       Corner Radius: 30
 
-6) Rectangle - TextBox:
+7) Rectangle - TextBox:
       Position:
         X: 573 Y: 182
         W: 491 H: 82
       Corner Radius: 30
       
-7) Text - Made by Kumar Anurag:
+8) Text - Made by Kumar Anurag:
       Position:
         X: 740 Y: 617
       Font: Roboto | Bold | 15
 
-8) Text - QR Code Heading:
+9) Text - QR Code Heading:
       Position:
         X: 715 Y: 65
       Font: Roboto | Bold | 50
       
-9) Image:
+10) Image:
       Position:
         X: 0 Y: 0
         W: 487 H: 700
         
-10) Rectangle:
+11) Rectangle:
       Position:
         X: 0 Y: 0
         W: 487 H: 700
